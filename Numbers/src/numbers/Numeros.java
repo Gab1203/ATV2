@@ -1,9 +1,9 @@
-/*1 - Crie uma classe em Java chamada Numero, que tenha dois métodos: éImpar(int n) e éPositivo(int n). 
-O método éImpar(int n) deve retornar verdadeiro se o número for ímpar e falso caso contrário. 
-O método éPositivo(int n) deve retornar verdadeiro se o número for positivo e falso caso contrário.
-Em seguida, crie uma classe Principal com um método main(). No método main(), 
-solicite ao usuário que insira um número inteiro. Use o método éImpar(int n) para verificar se o número é ímpar ou não e imprima o resultado. 
-Em seguida, solicite ao usuário que insira outro número inteiro. Use o método éPositivo(int n) para verificar se o número é positivo ou não e imprima o resultado.*/
+/*1 - Crie uma classe em Java chamada Numero, que tenha dois mÃ©todos: Ã©Impar(int n) e Ã©Positivo(int n). 
+O mÃ©todo Ã©Impar(int n) deve retornar verdadeiro se o nÃºmero for Ã­mpar e falso caso contrÃ¡rio. 
+O mÃ©todo Ã©Positivo(int n) deve retornar verdadeiro se o nÃºmero for positivo e falso caso contrÃ¡rio.
+Em seguida, crie uma classe Principal com um mÃ©todo main(). No mÃ©todo main(), 
+solicite ao usuÃ¡rio que insira um nÃºmero inteiro. Use o mÃ©todo Ã©Impar(int n) para verificar se o nÃºmero Ã© Ã­mpar ou nÃ£o e imprima o resultado. 
+Em seguida, solicite ao usuÃ¡rio que insira outro nÃºmero inteiro. Use o mÃ©todo Ã©Positivo(int n) para verificar se o nÃºmero Ã© positivo ou nÃ£o e imprima o resultado.*/
 
 package numbers;
 
@@ -25,7 +25,7 @@ public class Numeros {
 	
 	public boolean ePositivo(int number) {
 		
-		if(number >= 0) {
+		if(number > 0) {
 			
 			return true;
 		}else {
